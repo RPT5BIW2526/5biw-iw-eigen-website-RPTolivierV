@@ -88,23 +88,26 @@ aside
 section.featured-track
 {
     left: 35px;
-    background-color:rgba(49, 137, 22, 0.52) ;
     width: 50em;
     height: 15em;  
-    div.main-artist
+    display: flex;
+
+    div.tabs {
+        background-color:rgba(49, 137, 22, 0.52) ;
+    }
+
+    div.main-artist img
     {
-        width: 35em;
-        height: 15em;
-        opacity: 30%;
-        position: absolute;
-        right: 57em;
-        top: 3em;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(49, 137, 22, 0.52);
 
     }
-    div.featured-artist
+
+    div.featured-artist img
     {
-        width: 196px;
-        height: 294px;
-        opacity: 50%;
+        background-color: rgba(78, 157, 92, 0.36);
+        width: 150%;
+        height: 100%;
     }
 }
